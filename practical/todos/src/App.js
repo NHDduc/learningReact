@@ -1,37 +1,21 @@
 import "./App.css";
 
-import CreateBtn from "./components/header/createBtn";
-import SearchForm from "./components/header/searchForm";
+import CreateBtn from "./components/SearchForm/createBtn";
+import SearchForm from "./components/SearchForm/searchForm";
 
-import Sidebar from "./components/sidebar/sidebar";
+import Sidebar from "./components/TodoItem/sidebar";
 
 import Item from "./components/todolist/todoItem/item";
 
-import Pavigation from "./components/pavigation/pavigation";
+import Pavigation from "./components/Pagination/pavigation";
 
 function App() {
   return (
     <>
-      <div className="container">
-        <div className="header">
-          <div className="header__createBtn">
-            <CreateBtn />
-          </div>
-          <div className="header__searchForm">
-            <SearchForm />
-          </div>
-        </div>
-        <div className="main">
-          <div className="main__sidebar">
-            <Sidebar />
-          </div>
-          <div className="main__todolist">
-            <Item />
-            <div className="main__navigation">
-              <Pavigation />
-            </div>
-          </div>
-        </div>
+      <Header />
+      <div className="main-content">
+        <Sidebar />
+        <MainContent />
       </div>
     </>
   );

@@ -6,16 +6,24 @@ const Sidebar = (props) => {
   return (
     <div className="sidebar">
       <div className="sidebar__item">
-        <p>All Task</p>
+        <p>
+          <a href="#">All Task</a>
+        </p>
       </div>
       <div className="sidebar__item">
-        <p>New Task</p>
+        <p>
+          <a href="#">New Task</a>
+        </p>
       </div>
       <div className="sidebar__item">
-        <p>Doing Task</p>
+        <p>
+          <a href="#">Doing Task</a>
+        </p>
       </div>
       <div className="sidebar__item">
-        <p>Done Task</p>
+        <p>
+          <a href="#">Done Task</a>
+        </p>
       </div>
     </div>
   );

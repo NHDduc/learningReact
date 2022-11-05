@@ -4,7 +4,7 @@
     display: flex;
     width: 150px;
     height: 30px;
-    border: 1px solid var(--primary);
+    border: 1px solid #675bf1;
     border-radius: 10px;
     left: calc(50% + 90px);
     transform: translateX(-50%);
@@ -17,8 +17,8 @@
       align-items: center;
       font-weight: bold;
       font-size: 18px;
-      color: var(--primary);
-      border-right: 1px solid var(--primary);
+      color: #675bf1;
+      border-right: 1px solid #675bf1;
       padding-bottom: 3px;
   
       &:first-child {

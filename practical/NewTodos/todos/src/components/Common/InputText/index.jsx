@@ -3,9 +3,7 @@ import React from "react";
 import "./styles.scss";
 
 const InputText = (props) => {
-  return (
-    <input className="input-text" placeholder="Type something to search" />
-  );
+  return <input className="input-text" />;
 };
 
 InputText.propTypes = {};

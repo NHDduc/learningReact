@@ -1,6 +1,6 @@
 import React from "react";
-import Pagination from "../../components/Pagination";
 import TodoList from "../../components/TodoList";
+import Pagination from "../../components/Pagination";
 
 import "./styles.scss";
 

@@ -1,6 +1,6 @@
 .sidebar {
-  width: 160px;
-  background-color: var(--orange);
+  width: 10rem;
+  background-color: orange;
   height: 100%;
   position: fixed;
 
@@ -15,6 +15,15 @@
     p {
       font-size: 24px;
       color: white;
+
+      a{
+        text-decoration: none;
+       
+      }
+
+      a:hover{
+        color: yellow;
+      }
     }
   }
 }
